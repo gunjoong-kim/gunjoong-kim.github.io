@@ -2,7 +2,6 @@
 layout: post
 title: About
 ---
+My name is gunjoong Kim.
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+2017.03 ~        // BA in University of Seoul
