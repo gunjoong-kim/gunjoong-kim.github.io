@@ -1,56 +1,49 @@
-#
-# This file contains configuration flags to customize your site
-#
+title: Moonwalk
+author: Abhinav Saxena
+url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+description: > # description of the site (multiple lines allowed)
+  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
 
-# Name of your site (displayed in the navbar)
-name: brutalist-blog
+permalink: /:slug
 
-# Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
-title: brutalist-blog
+favicon: "./logo.png" # relative path to site's favicon
 
-# Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
-# Avatar for light mode site
-lightavatar: /assets/images/light_bauhaus_logo.png
-# Avatar for dark mode site
-darkavatar: /assets/images/dark_bauhaus_logo.png
+twitter:
+    username: abhinav # update or delete this
+    card: summary_large_image
 
-# A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
+#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+remote_theme: abhinavs/moonwalk
 
-# A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "home.." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description
+  show_navbar: true # show horizontal navbar
+  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_copyright: true # show copyright notice in footer
+  # following keys are using to create home layout
+  show_projects: true # show projects as cards, add in _data/home.yml
+  show_blog: true # show blog posts added in _posts
+  show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
+  # options for "home" page
+  home:
+    title_projects: Portfolio
+    title_misc_list: Details
+    title_blog: Blog
+    title_old_projects: Old Projects
 
-# The full URL to your site. Note: site.github.url will be used by default.
-url:
+soopr:
+  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+highlighter: rouge
 
-# global author information
-author: andrew-park
-
-# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
-logo: /assets/images/light_bauhaus_logo.png
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-permalink: /:year/:month/:day/:title/
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  email: mkie0125@gmail.com
-  facebook:
-  github: andrewhwanpark/brutalist-blog
-  instagram: andrewhwanpark
-  linkedin: andrewhwanpark
-  rss: # just type anything here for a working RSS icon
-  twitter: andrewhwanpark
+sass:
+  style: :compressed
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-soopr-seo-tag
