@@ -2,11 +2,21 @@ navbar_entries:
   - title: about
     url: about
 
+  - title : Algorithm
+    url : Algorithm
+
+  - title : C++
+    url : C++
+  
+  - title : other
+    url : other
+
+
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: music
+    url: music
 
 project_entries:
   - title: Project 1
