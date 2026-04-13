@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Gunjoong Kim"
 title_separator          : "-"
 name                     : &name "Gunjoong Kim"
-description              : &description "Gunjoong Kim's academic portfolio - Efficient On-device AI & Immersive Computing"
+description              : &description "Immersive Computing & Efficient On-device AI"
 url                      : https://gunjoong-kim.github.io
 baseurl                  : ""
 repository               : "gunjoong-kim/gunjoong-kim.github.io"
@@ -29,12 +29,12 @@ author:
   location         : "Seoul, Korea"
   employer         : "Yonsei University"
   uri              : # URL
-  email            : # your email here
+  email            : "gunjoong.kim.dev@gmail.com"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=YOURID"
+  googlescholar    : https://scholar.google.com/citations?user=FBYehTIAAAAJ&hl=ko
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : # "https://orcid.org/your-orcid"
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "gunjoong-kim"
+  github           : https://github.com/gunjoong-kim
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://www.linkedin.com/in/gunjoong-kim-b34b23366/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
