@@ -10,7 +10,8 @@ authors: "Chanyoung Jung*, Jeho Lee*, <b>Gunjoong Kim</b>, Jiwon Kim, Seonghoon 
 award: "Best Paper Award"
 doi: "https://dl.acm.org/doi/10.1145/3711875.3729161"
 tags:
-  - Efficient On-device AI
-  - Augmented Reality
   - Mobile Systems
+  - On-device AI
+  - NPU
+  - GPU
 ---

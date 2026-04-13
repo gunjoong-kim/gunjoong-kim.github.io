@@ -214,6 +214,11 @@
     background: #e8f5e9;
     color: #2e7d32;
   }
+
+  &--article {
+    background: #fff3e0;
+    color: #e65100;
+  }
 }
 
 .pub-tags {
@@ -228,8 +233,18 @@
   font-size: $type-size-8;
   padding: 0.1em 0.5em;
   border-radius: 3px;
-  background: var(--global-code-background-color, #f6f8fa);
-  color: var(--global-text-color-light);
+  background: #e8eaf6;
+  color: #303f9f;
+}
+
+.cv-pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-pub-item {
+  margin-bottom: 0.5em;
 }
 
 /*

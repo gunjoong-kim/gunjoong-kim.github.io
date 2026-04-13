@@ -9,7 +9,9 @@ pub_type: "Conference"
 authors: "Jeho Lee, <b>Gunjoong Kim</b>, Chanyoung Jung, Jaehee Kim, Seonghoo Park, Hojung Cha"
 doi: "To appear"
 tags:
-  - Efficient On-device AI
-  - NPU
   - Mobile Systems
+  - On-device AI
+  - NPU
+  - Quantization
+  - Graph Rewriting
 ---

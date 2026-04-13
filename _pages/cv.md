@@ -14,6 +14,7 @@ You can download a PDF version of my CV [here](/files/cv_gunjoong.pdf).
 Education
 ======
 * **M.S. in Computer Science and Engineering**, Yonsei University, Mar. 2024 -- Feb. 2026
+  * Mobile Embedded Systems Lab [lab homepage](https://mobed.yonsei.ac.kr/index.php?mid=Homepage).
   * GPA: 4.27/4.30
 * **B.S. in Computer Science**, University of Seoul, Mar. 2017 -- Feb. 2024
   * GPA: 3.85/4.50, Major GPA: 4.10/4.50
@@ -24,13 +25,14 @@ Experience
   * Mobile Embedded Systems Lab., Yonsei University, Seoul, Republic of Korea
   * **Efficient On-device AI:** Worked on advancing efficient on-device AI, exploring both model-level and system-level approaches to bridge the gap between heavy AI workloads and the limited resources of mobile devices.
   * **Immersive Computing:** Investigated system designs that support next-generation immersive applications including augmented reality and volumetric media.
-  * Awarded **Best Paper** at MobiSys 2025 for ARIA.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+<ul class="cv-pub-list">
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+</ul>
 
 Projects
 ======
