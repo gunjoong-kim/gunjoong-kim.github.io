@@ -7,7 +7,7 @@ date: 2025-06-01
 venue: "ACM Annual International Conference on Mobile Computing and Networking (MobiCom)"
 pub_type: "Conference"
 authors: "<b>Gunjoong Kim</b>*, Seonghoon Park*, Jeho Lee, Chanyoung Jung, Hyungchul Jun, Hojung Cha (*Co-first authors)"
-doi: "To appear"
+doi: "https://dl.acm.org/doi/10.1145/3680207.3765267"
 tags:
   - Mobile Systems
   - Immersive Computing

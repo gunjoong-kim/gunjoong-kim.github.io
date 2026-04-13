@@ -7,7 +7,7 @@ date: 2026-03-15
 venue: "ACM GetMobile"
 pub_type: "Article"
 authors: "<b>Gunjoong Kim</b>*, Seonghoon Park*, Jeho Lee, Chanyoung Jung, Hyungchol Jun, and Hojung Cha"
-doi: "https://dl.acm.org/doi/10.1145/3793236.3793246"
+doi: "To appear"
 tags:
   - Mobile Systems
   - Immersive Computing
