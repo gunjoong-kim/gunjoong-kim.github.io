@@ -12,6 +12,5 @@ doi: "https://dl.acm.org/doi/10.1145/3711875.3729161"
 tags:
   - Mobile Systems
   - On-device AI
-  - NPU
-  - GPU
+  - Heterogeneous Processor
 ---
