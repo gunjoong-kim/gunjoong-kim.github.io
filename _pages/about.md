@@ -9,7 +9,7 @@ redirect_from:
 
 Hi there! I am Gunjoong Kim.
 
-I received the M.S. degree in Computer Science and Engineering from Yonsei University, Seoul, South Korea in February 2026. During my M.S., I was a member of [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage) supervised by Prof. Hojung Cha. I also received the B.S. degree in Computer Science from the University of Seoul in February 2024.
+I am a Research Associate at the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage), Yonsei University, supervised by Prof. Hojung Cha. I received the M.S. degree in Computer Science and Engineering from Yonsei University in February 2026, and the B.S. degree in Computer Science from the University of Seoul in February 2024.
 
 ## Research Interests
 
