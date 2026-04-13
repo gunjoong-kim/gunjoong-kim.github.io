@@ -28,38 +28,46 @@
 
     {% if post.collection == 'publications' %}
       {%- comment -%} === PUBLICATION ITEM === {%- endcomment -%}
-      <h2 class="archive__item-title" itemprop="headline">
-        {{ title }}
-        {% if post.award %}
-          <span class="pub-award">🏆 {{ post.award }}</span>
+      <div class="pub-item">
+        <p class="pub-title">
+          {% if post.pub_type %}
+            <span class="pub-type pub-type--{{ post.pub_type | downcase }}">{{ post.pub_type }}</span>
+          {% endif %}
+          {{ title }}
+          {% if post.award %}
+            <span class="pub-award">🏆 <b><i>{{ post.award }}</i></b></span>
+          {% endif %}
+        </p>
+        {% if post.authors %}
+          <p class="pub-authors">{{ post.authors }}</p>
         {% endif %}
-      </h2>
-
-      <p class="pub-venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-
-      {% if post.authors %}
-        <p class="pub-authors">{{ post.authors }}</p>
-      {% endif %}
-
-      <div class="pub-buttons">
-        {% if post.abstract %}
-          <button class="pub-btn" onclick="var el=this.parentNode.nextElementSibling; el.style.display = el.style.display==='block' ? 'none' : 'block';">Abstract</button>
+        <p class="pub-venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% if post.doi or post.paperurl or post.slidesurl or post.videourl %}
+          <p class="pub-links">
+            {% if post.doi and post.doi != "To appear" %}
+              [<a href="{{ post.doi }}" target="_blank">Paper</a>]
+            {% elsif post.doi == "To appear" %}
+              [To appear]
+            {% endif %}
+            {% if post.paperurl %}
+              [<a href="{{ post.paperurl }}" target="_blank">Paper</a>]
+            {% endif %}
+            {% if post.videourl %}
+              [<a href="{{ post.videourl }}" target="_blank">Video</a>]
+            {% endif %}
+            {% if post.slidesurl %}
+              [<a href="{{ post.slidesurl }}" target="_blank">Slides</a>]
+            {% endif %}
+          </p>
         {% endif %}
-        {% if post.doi %}
-          <a class="pub-btn" href="{{ post.doi }}" target="_blank">PDF</a>
-        {% elsif post.paperurl %}
-          <a class="pub-btn" href="{{ post.paperurl }}" target="_blank">PDF</a>
-        {% endif %}
-        {% if post.slidesurl %}
-          <a class="pub-btn" href="{{ post.slidesurl }}" target="_blank">Slides</a>
+        {% if post.tags.size > 0 %}
+          <div class="pub-tags">
+            {% for tag in post.tags %}
+              <span class="pub-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
         {% endif %}
       </div>
-
-      {% if post.abstract %}
-        <div class="pub-abstract" style="display:none;">
-          <p>{{ post.abstract }}</p>
-        </div>
-      {% endif %}
 
     {% else %}
       {%- comment -%} === NON-PUBLICATION ITEMS === {%- endcomment -%}

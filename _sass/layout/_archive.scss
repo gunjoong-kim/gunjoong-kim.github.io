@@ -156,59 +156,80 @@
    Publications
    ========================================================================== */
 
-.pub-venue {
-  font-size: $type-size-6;
-  margin: 0 0 0.25em;
+.pub-item {
+  margin-bottom: 1.5em;
+}
+
+.pub-title {
+  font-weight: bold;
+  font-size: $type-size-5;
+  margin: 0 0 0.15em;
 }
 
 .pub-authors {
   font-size: $type-size-6;
-  color: var(--global-text-color-light);
-  margin: 0 0 0.5em;
+  margin: 0 0 0.1em;
+}
+
+.pub-venue {
+  font-size: $type-size-6;
+  margin: 0 0 0.2em;
 }
 
 .pub-award {
-  font-size: $type-size-6;
-  color: #d4a017;
-  font-weight: bold;
+  font-weight: normal;
   white-space: nowrap;
 }
 
-.pub-buttons {
-  margin: 0.4em 0;
+.pub-links {
+  font-size: $type-size-6;
+  margin: 0.2em 0 0;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-type {
+  display: inline-block;
+  font-size: $type-size-7;
+  font-weight: 600;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+
+  &--conference {
+    background: #e3f2fd;
+    color: #1565c0;
+  }
+
+  &--journal {
+    background: #e8f5e9;
+    color: #2e7d32;
+  }
+}
+
+.pub-tags {
+  margin-top: 0.3em;
   display: flex;
-  gap: 0.4em;
+  gap: 0.3em;
   flex-wrap: wrap;
 }
 
-.pub-btn {
+.pub-tag {
   display: inline-block;
-  padding: 0.2em 0.7em;
-  font-size: $type-size-7;
-  border: 1px solid var(--global-border-color);
-  border-radius: 4px;
-  background: var(--global-background-color);
-  color: var(--global-text-color);
-  cursor: pointer;
-  text-decoration: none !important;
-  font-family: $sans-serif;
-
-  &:hover {
-    background: var(--global-border-color);
-    text-decoration: none !important;
-  }
-}
-
-.pub-abstract {
-  margin: 0.5em 0;
-  padding: 0.75em 1em;
+  font-size: $type-size-8;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
   background: var(--global-code-background-color, #f6f8fa);
-  border-left: 3px solid var(--global-border-color);
-  font-size: $type-size-6;
-
-  p {
-    margin: 0;
-  }
+  color: var(--global-text-color-light);
 }
 
 /*

@@ -20,6 +20,6 @@ I received the M.S. degree in Computer Science and Engineering from Yonsei Unive
 
 - **[Feb. 2026]** Our paper *viNPU: Optimizing Vision Transformer Inference on Mobile NPUs* has been accepted to **EuroSys 2026**.
 - **[Jan. 2026]** Our work *ARIA* has been featured as a Research Highlight in a **ACM GetMobile**.
-- **[Aug 2025]** Our paper *Vega: Fully Immersive Volumetric Video Streaming with 3D Gaussian Splatting* has been accepted to ACM MobiCom 2025.
+- **[Aug 2025]** Our paper *Vega: Fully Immersive Volumetric Video Streaming with 3D Gaussian Splatting* has been accepted to **ACM MobiCom 2025**.
 - **[June. 2025]** Our paper *ARIA* received the **Best Paper Award** at **ACM MobiSys 2025**.
 - **[Apr. 2025]** Our paper *ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality* has been accepted to **ACM MobiSys 2025**.
