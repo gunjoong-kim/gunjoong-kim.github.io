@@ -3,7 +3,7 @@ title: "ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobi
 collection: publications
 category: conferences
 permalink: /publication/2025-aria-mobisys
-date: 2025-06-01
+date: 2025-09-25
 venue: "ACM Annual International Conference on Mobile Systems, Applications, and Services (MobiSys)"
 pub_type: "Conference"
 authors: "Chanyoung Jung*, Jeho Lee*, <b>Gunjoong Kim</b>, Jiwon Kim, Seonghoon Park, Hojung Cha (*Co-first authors)"

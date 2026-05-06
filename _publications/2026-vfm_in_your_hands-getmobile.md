@@ -3,7 +3,7 @@ title: "VFM in Your Hands: Optimizing Real-Time Scene Understanding for Mobile A
 collection: publications
 category: Article
 permalink: /publication/2026-vfm_in_your_hands-getmobile
-date: 2026-03-01
+date: 2026-01-20
 venue: "ACM GetMobile"
 pub_type: "Article"
 authors: "Jeho Lee, Chanyoung Jung, <b>Gunjoong Kim</b>, Jiwon Kim, Seonghoo Park, Hojung Cha"

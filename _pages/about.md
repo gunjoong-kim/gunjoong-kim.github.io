@@ -18,6 +18,7 @@ I am a Research Associate at the [Mobile Embedded Systems Lab](https://mobed.yon
 
 ## News
 
+- **[Apr. 2026]** Our work *Vega* has been featured as a Research Highlight in a **ACM GetMobile**.
 - **[Feb. 2026]** Our paper *viNPU: Optimizing Vision Transformer Inference on Mobile NPUs* has been accepted to **EuroSys 2026**.
 - **[Jan. 2026]** Our work *ARIA* has been featured as a Research Highlight in a **ACM GetMobile**.
 - **[Aug 2025]** Our paper *Vega: Fully Immersive Volumetric Video Streaming with 3D Gaussian Splatting* has been accepted to **ACM MobiCom 2025**.
