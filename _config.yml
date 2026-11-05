@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Gunjoong Kim"
   pronouns         : # example: "he/him"
-  bio              : "Research Associate @ Mobile Embedded Systems Lab, Yonsei University. Immersive Computing & On-device AI."
+  bio              : "Ph.D. candidate @ Mobile Embedded Systems Lab, Yonsei University."
   location         : "Seoul, Korea"
   employer         : "Yonsei University"
   uri              : # URL
-  email            : "gunjoong.kim.dev@gmail.com"
+  email            : "gunjoong.kim@yonsei.ac.kr"
 
   # Academic websites
   academia         : # URL
