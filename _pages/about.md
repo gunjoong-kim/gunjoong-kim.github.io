@@ -7,17 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I am Gunjoong Kim.
-
-I am a Research Associate at the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage), Yonsei University, supervised by Prof. Hojung Cha. I received the M.S. degree in Computer Science and Engineering from Yonsei University in February 2026, and the B.S. degree in Computer Science from the University of Seoul in February 2024.
+I am Gunjoong Kim, a Ph.D. candidate in Computer Science and Engineering at Yonsei University. I am co-advised by Prof. Hojung Cha at the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage) and Prof. Seonghoon Park at the [Mobile AI and Systems Lab](https://mais.yonsei.ac.kr/). I received my M.S. in Computer Science and Engineering from Yonsei University in February 2026 and my B.S. in Computer Science from the University of Seoul in February 2024.
 
 ## Research Interests
 
-- **Immersive Computing:** System designs for next-generation immersive applications including augmented reality and volumetric media, where high-quality perception and interaction are critical.
-- **Efficient On-device AI:** Model-level and system-level approaches to bridge the gap between heavy AI workloads and the limited resources of mobile devices, co-optimizing algorithms and runtime systems.
+I build mobile systems that bring context-aware intelligence and immersive experiences into everyday use, adapting to each user’s needs. My research spans on-device AI systems and immersive computing. Across these areas, I explore how models and hardware shape system design, and how these insights can inform the abstractions and principles for building adaptive, personalized mobile systems.
 
 ## News
 
+- **[Nov. 2026]** Our work *Marionette* has been accepted to **ACM/IEEE SenSys 2027**
 - **[Apr. 2026]** Our work *Vega* has been featured as a Research Highlight in a **ACM GetMobile**.
 - **[Feb. 2026]** Our paper *viNPU: Optimizing Vision Transformer Inference on Mobile NPUs* has been accepted to **EuroSys 2026**.
 - **[Jan. 2026]** Our work *ARIA* has been featured as a Research Highlight in a **ACM GetMobile**.
