@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Gunjoong Kim, a Ph.D. candidate in Computer Science and Engineering at Yonsei University. I am co-advised by Prof. Hojung Cha at the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage) and Prof. Seonghoon Park at the [Mobile AI and Systems Lab](https://mais.yonsei.ac.kr/). I received my M.S. in Computer Science and Engineering from Yonsei University in February 2026 and my B.S. in Computer Science from the University of Seoul in February 2024.
+I am Gunjoong Kim, a Ph.D. candidate in Computer Science and Engineering at Yonsei University. I am supervised by Prof. Hojung Cha at the [Mobile Embedded Systems Lab](https://mobed.yonsei.ac.kr/index.php?mid=Homepage). I received my M.S. in Computer Science and Engineering from Yonsei University in February 2026 and my B.S. in Computer Science from the University of Seoul in February 2024.
 
 ## Research Interests
 
